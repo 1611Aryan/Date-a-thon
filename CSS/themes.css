@@ -165,7 +165,7 @@
       #t-4:checked ~ .dots label[for="t-4"],
       #t-5:checked ~ .dots label[for="t-5"],
       #t-6:checked ~ .dots label[for="t-6"] {
-        transform: scale(1.5);
+        transform: scale(2);
         background-color: #fff;
       }
       #t-1:checked ~ .dots label[for="t-2"],
@@ -178,7 +178,7 @@
       #t-5:checked ~ .dots label[for="t-4"],
       #t-5:checked ~ .dots label[for="t-6"],
       #t-6:checked ~ .dots label[for="t-5"] {
-        transform: scale(2);
+        transform: scale(1.5);
       }
       #t-1:checked ~ .testimonials label[for="t-2"],
       #t-2:checked ~ .testimonials label[for="t-3"],
@@ -199,15 +199,6 @@
         transform: translate3d(-200px, 0, -90px) rotateY(15deg);
       }
       
-
-  #t-3:checked ~ .testimonials label[for="t-1"],
-  #t-4:checked ~ .testimonials label[for="t-2"],
-  #t-5:checked ~ .testimonials label[for="t-3"],
-  #t-6:checked ~ .testimonials label[for="t-4"],
-  #t-1:checked ~ .testimonials label[for="t-5"],
-  #t-2:checked ~ .testimonials label[for="t-6"] {
-    transform: translate3d(-300px, 0, -120px) rotateY(15deg);
-  }
   #t-1:checked ~ .testimonials label[for="t-1"],
   #t-2:checked ~ .testimonials label[for="t-2"],
   #t-3:checked ~ .testimonials label[for="t-3"],
@@ -224,28 +215,14 @@
 
   #themes .testimonials .item {
     flex: 1;
-    width: 50%;
+    width: 70%;
     padding: 10px;
     border-radius: 5px;
-    background-color: #0A0220;
-    position: absolute;
-    top: 0;
-    box-sizing: border-box;
-    text-align: center;
-    transition: transform 0.4s;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    user-select: none;
-    cursor: pointer;
+    
     
   }
 
-  .testimonials .item img {
-    width: 40%;
-    height: 40%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 13px solid #3B344D;
-  }
+  
 
 
     }
